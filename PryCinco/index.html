@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    
+    
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                      <input  id="first_name" type="text" class="validate">
+                      <label for="first_name">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Apellidos</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input  id="first_name" type="number" class="validate">
+                            <label for="first_name">Edad</label>
+                    </div>
+                    <div class="row">
+                        
+                        <p>
+                          <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Hombre</span>
+                          </label>
+                        </p>
+                        <p>
+                            <label>
+                              <input name="group1" type="radio" />
+                              <span>Mujer</span>
+                            </label>
+                          </p>
+                    </div>
+                    <div>
+                        <label>Browser Select</label>
+                        <select class="browser-default">
+                          <option value="" disabled selected>Estado Civil</option>
+                          <option value="1">Soltero</option>
+                          <option value="2">Casado</option>
+                          <option value="3">Separado</option>
+                          <option value="4">Unión libre</option>
+                          <option value="5">Pareja de hecho</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <form class="s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <div>
+                                        <label>Browser Select</label>
+                        <select class="browser-default">
+                          <option value="" disabled selected>Tipo de documento</option>
+                          <option value="1">C.C </option>
+                          <option value="2">Pasaporte</option>
+                          <option value="3">C.E</option>
+                          <option value="4">NVIP</option>
+                          <option value="5">Tarjeta militar</option>
+                          <option value="6">PEP</option>
+                          <option value="7">T.I</option>
+                        </select>
+                        <div class=row>
+                            
+                                <input  id="numero_identificacion" type="number" class="validate">
+                                <label for="numero_identificacion"># de identificación</label>
+                            
+                            
+                        </div>
+
+                                    
+                            
+                        </form>
+
+                    </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="numero_celular" type="telephone" class="validate">
+                                    <label for="numero_celular">Telefono</label>
+                                    <div class="row">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Correo electrónico</label>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </form>
+                        
+                    </div>
+                    <div class="row">
+                        <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Acepto el tratamiento de mis datos personales.</span>
+                            </label>
+                          </p>
+                          <p>
+                            <label>
+                              <input type="checkbox" class="filled-in" checked="checked" />
+                              <span>Quiero recibir notificaciones a mi correo electrónico</span>
+                            </label>
+                          </p>
+
+                    </div>
+                    <div class="row">
+                        <button name="btn1" onclick="nombreFunction()">Enviar</button>
+                        <button name="btn1" onclick="nombreFunction()">Cancelar</button>
+
+                    </div>
+                    
+            </form>
+
+
+
+        </div>
+
+    </div>
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>
